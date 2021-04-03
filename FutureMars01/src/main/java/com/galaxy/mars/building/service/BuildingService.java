@@ -9,4 +9,6 @@ public interface BuildingService {
 	
 	public void setStair100();
 	
+	public void setStair100();
+	
 }
