@@ -15,10 +15,19 @@ public class BuildingController {
 	@RequestMapping(value = "index.do")
 	public String setStairInfo() {
 		service.setStair1();
-		
 		return "index.jsp";
 	}
 	
+
+	
+	@RequestMapping(value = "checkStair.do")
+	public String checkStairCount() {
+		
+		service.checkStair();
+		
+		return "index2.jsp";
+	}
+
 	@RequestMapping(value = "page.do")
 	public String page() {
 		service.setStair1();
