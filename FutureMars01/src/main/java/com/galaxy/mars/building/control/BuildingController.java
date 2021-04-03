@@ -18,5 +18,12 @@ public class BuildingController {
 		
 		return "index.jsp";
 	}
+	
+	@RequestMapping(value = "page.do")
+	public String page() {
+		service.setStair1();
+		
+		return "page.jsp";
+	}
 
 }

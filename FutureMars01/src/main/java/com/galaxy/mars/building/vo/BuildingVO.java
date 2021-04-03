@@ -5,4 +5,8 @@ public class BuildingVO {
 	private String Stair1 = "";
 	private String Stair2 = "";
 	
+	private String seq = "";
+	private String number = "";
+	private String name = "";
+	
 }
