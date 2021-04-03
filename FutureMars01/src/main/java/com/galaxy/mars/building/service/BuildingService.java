@@ -7,6 +7,7 @@ public interface BuildingService {
 	public void setStair3();
 	public void setStair4();
 	public void setStair5();
+	public void setStair6();
 	
 	
 	public void setStair100();
